@@ -1,0 +1,93 @@
+body {
+  @apply m-0 p-0 w-full;
+  word-break: break-word;
+  -webkit-font-smoothing: antialiased;
+}
+
+img {
+  border: 0;
+  @apply max-w-full leading-full align-middle;
+}
+
+/* here we can addd our the custome style like certificate template */
+
+.layout{
+  width: 74%; 
+  height: 900px; 
+  background-image: url(../images/English_front_w_bleed_CMYK.png); 
+  background-repeat: no-repeat; 
+  background-size:cover; 
+  position: relative;
+}
+.left-panel{
+  font-size:28px !important; 
+  position:absolute; 
+  top:28.9%; 
+  left:-7%;
+}
+.dob{
+  font-size:28px !important; 
+  position:absolute; 
+  top: 57.6%;
+  left:11%;
+}
+.city{
+  font-size:28px !important; 
+  position:absolute; 
+  top:70%; 
+  left:11%;
+}
+.city p:last-child{
+  position:absolute; 
+  top:80%; 
+  left:1%;
+}
+.right-panel{
+  font-size:28px; 
+  position:absolute; 
+  top:28%; 
+  right:14%;
+}
+.temporary{
+  position:absolute; 
+  top:5%; 
+  right:28%;
+}
+.license-no{
+  font-size:28px; 
+  position:absolute; 
+  top: 15.5%;
+  right:14%;
+}
+.date-issue{
+  font-size:28px; 
+  position:absolute; 
+  top: 29.7%; 
+  right:8%
+}
+.adminstrator{
+  font-size:28px; 
+  position:absolute; 
+  top:41%; 
+  right:2%;
+}
+.adminstrator p:last-child{
+  position:absolute; 
+  top:90%;
+}
+.canadaboat img{
+  max-width:450px;
+  position:absolute; 
+  bottom:3%; 
+  left:9%;
+}
+.canadaboat-text{
+  font-size:20px;
+  position:absolute; 
+  top:83%; 
+  right:30%;
+}
+.temporary-big{
+  width:100%; 
+  margin-top:63%;
+}
